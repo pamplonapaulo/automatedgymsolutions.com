@@ -21,10 +21,30 @@ header.navbar {
     background: #011627;
     width: 100vw;
     z-index: 9;
+
+    /* OLD: padding: .5rem 1rem; */
+    padding: .5rem 0;
+}
+
+.page-header-alpha .navbar-brand .logo {
+  /* OLD: margin-left: 0; */
+  margin-left: 1rem;
 }
 
 .page-header-alpha .navbar-brand .text {
   display: table;
+
+  /* OLD:
+  width: auto;
+  position: relative;
+  margin-left: 8px;
+  margin-right: 8px; 
+  text-align: unset;
+  */
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  text-align: center;
 }
 
 .page-header-alpha .navbar-brand .text .line {
@@ -551,6 +571,14 @@ min 1024px
     transition: 0s;
   }
 
+  header.navbar {
+    padding: 0;
+  }
+
+  .page-header-alpha .navbar-brand .logo {
+    margin-left: 0;
+  }
+
   .page-header-alpha .navbar-mainmenu .navbar-nav {
     margin-left: 2rem;
   }
@@ -566,6 +594,10 @@ min 1024px
   a.navbar-brand span.logo:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+  }
+
+  .page-header-alpha .navbar-brand .text {
+    width: auto;
   }
 
   .page-header-alpha .navbar-brand .text.smaller:hover {
