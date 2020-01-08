@@ -190,6 +190,26 @@ div[data-anchor="the-system"] .price-item p {
   vertical-align: middle;
 }
 
+div[data-anchor="why"] .html5-video-player a.ytp-title-link.yt-uix-sessionlink {
+  opacity: 0!important;
+}
+
+div[data-anchor="why"] .html5-video-player a.ytp-title-channel-logo {
+  opacity: 0!important;
+}
+
+div[data-anchor="why"] .ytp-chrome-top-buttons {
+  opacity: 0!important;
+}
+
+div[data-anchor="why"] .html5-video-player a.ytp-watermark {
+  opacity: 0!important;
+}
+
+.html5-video-player a {
+  opacity: 0!important;
+}
+
 div[data-anchor="why"].section.img-bg {
   background-image: url(../assets/backgrounds/gears-mobile.jpg);
 }
@@ -723,7 +743,7 @@ min 1024px
   }
 
   div[data-anchor="tracking"].section.img-bg {
-    background-image: url(../assets/backgrounds/pull-back-desktop.jpg);
+    background-image: url(../assets/backgrounds/weights-dark-desktop.jpg);
   }
 
   div[data-anchor="tracking"].section .carousel-swiper-beta .slider-container .illustr img.mobile {
@@ -804,7 +824,8 @@ min 1350px
   }
 
   .page-header-alpha .navbar-brand .logo img {
-        height: 145px;
+        /* height: 145px; */
+        height: 105px;
   }
 
   div[data-anchor="home"] .section-content ul.anim-2 li {
