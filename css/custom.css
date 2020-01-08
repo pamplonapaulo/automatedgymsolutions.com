@@ -94,15 +94,14 @@ a.navbar-brand span.line {
   text-shadow: 1px 1px 0 #011627;
 }
 
-.navbar-topmenu .navbar-nav.navbar-nav-actions .nav-item a.btn.btn-outline-white.btn-round {
-  border: 2px solid transparent;
-  background: #011627;
-  background-color: #38A8DB;
-  color: #F6F7F8;
+.page-header-alpha.menu-right .navbar-toggler p {   
+  display: none;
 }
 
-.navbar-topmenu .navbar-nav.navbar-nav-actions .nav-item a.btn.btn-outline-white.btn-round:hover {
-  background-color: #011627;
+.navbar-topmenu .navbar-nav.navbar-nav-actions .nav-item a.btn.btn-outline-white.btn-round {
+  border: 2px solid transparent;
+  background-color: #38A8DB;
+  color: #F6F7F8;
 }
 
 .fp-responsive div[data-anchor].section.fp-section.anim {
@@ -620,8 +619,48 @@ min 1024px
     width: auto;
   }
 
+  .page-header-alpha .navbar-brand .text .line {
+    font-size: 2rem;
+  }
+
+  .page-header-alpha .navbar-brand .text .line.sub {
+    font-size: 1.5rem;
+  }
+
   .page-header-alpha .navbar-brand .text.smaller:hover {
     background: rgba(255,255,255,0.4);
+  }
+
+  .menu-icon {
+    opacity: 1;
+  }
+  
+  .page-header-alpha.menu-right .navbar-toggler {   
+      background: #38A8DB;
+  }
+
+  .page-header-alpha.menu-right .navbar-toggler:hover {
+    background: #011627;
+  }
+
+  .navbar-topmenu .navbar-nav.navbar-nav-actions .nav-item a.btn.btn-outline-white.btn-round:hover {
+    background-color: #011627;
+  }
+
+  .page-header-alpha .navbar-topmenu .navbar-nav-actions {
+    margin-right: 4rem;
+  }
+
+  .page-header-alpha.menu-right .navbar-toggler p {   
+    display: block;
+    float: left;
+    color: #F6F7F8;
+    padding: .85rem .5rem 0;
+  }
+
+  .menu-icon.menu-icon-random .bars .bar1, .menu-icon.menu-icon-random .bars .bar2, .menu-icon.menu-icon-random .bars .bar3 {
+    background: #F6F7F8;
+    box-shadow: none;
   }
 
   #site-footer .footer-left p a:hover {
