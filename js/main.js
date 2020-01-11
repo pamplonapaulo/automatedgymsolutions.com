@@ -81,11 +81,11 @@ $(document).on('ready', function () {
 	});
 
 	// 4 Carousel Slider
-	var trackingCarousel = new Swiper('.tracking.carousel-swiper-beta-demo .swiper-container', {
-		pagination: '.tracking.carousel-swiper-beta-demo .items-pagination',
-		paginationClickable: '.tracking .items-pagination',
-		nextButton: '.tracking.carousel-swiper-beta-demo .items-button-next',
-		prevButton: '.tracking.carousel-swiper-beta-demo .items-button-prev',
+	var successCarousel = new Swiper('.success.carousel-swiper-beta-demo .swiper-container', {
+		pagination: '.success.carousel-swiper-beta-demo .items-pagination',
+		paginationClickable: '.success .items-pagination',
+		nextButton: '.success.carousel-swiper-beta-demo .items-button-next',
+		prevButton: '.success.carousel-swiper-beta-demo .items-button-prev',
 		loop: false,
 		grabCursor: false,
 		centeredSlides: false,
