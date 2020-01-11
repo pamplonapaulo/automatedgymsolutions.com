@@ -250,7 +250,7 @@ div[data-anchor="dashboard"] .title-desc h3 {
 }
 
 div[data-anchor="success"].section.img-bg {
-  background-image: url(../assets/backgrounds/pull-back-mobile.jpg);
+  background-image: url(../assets/backgrounds/weights-dark-mobile.jpg);
 }
 
 div[data-anchor="success"].section .carousel-swiper-beta {
@@ -425,7 +425,7 @@ min 768px
     }
 
     div[data-anchor="home"].section.img-bg {
-      background-image: url(../assets/backgrounds/droid-dancing-tablet.png);
+      background-image: url(../assets/backgrounds/droid-dancing-tablet.jpg);
       background-position: center;
     }
 
@@ -518,7 +518,7 @@ min 768px
     }
 
     div[data-anchor="success"].section.img-bg {
-      background-image: url(../assets/backgrounds/pull-back-tablet.jpg);
+      background-image: url(../assets/backgrounds/weights-dark-tablet.jpg);
     }
 
     div[data-anchor="success"].section .carousel-swiper-beta {
