@@ -652,10 +652,13 @@ min 1024px
 
   .menu-icon {
     opacity: 1;
+    margin-top: 3px;
   }
   
   .page-header-alpha.menu-right .navbar-toggler {   
       background: #38A8DB;
+      border-radius: 10rem;
+      padding: 0 1.5rem;
   }
 
   .page-header-alpha.menu-right .navbar-toggler:hover {
@@ -667,7 +670,8 @@ min 1024px
   }
 
   .page-header-alpha .navbar-topmenu .navbar-nav-actions {
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
+    margin-right: 6.5rem;
   }
 
   .page-header-alpha.menu-right .navbar-toggler p {   
