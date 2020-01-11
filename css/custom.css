@@ -149,6 +149,10 @@ div[data-anchor="home"].section .anim-1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 0;
+
+
+    /* T E S T I N G */
+    line-height: 1.4;
 }
 
 div[data-anchor="home"].section .section-content ul li {
