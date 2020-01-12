@@ -355,6 +355,10 @@ min 768px
       background: transparent;
     }
 
+    .page-header-alpha .navbar-brand .logo {
+      position: absolute;
+    }
+
     .page-header-alpha .navbar-brand .text {
       display: -webkit-box;
       display: -ms-flexbox;
